@@ -351,7 +351,7 @@ _show_config
 target=/mnt/data/on_boot.d/15-iptv.sh
 _create_config "$target"
 echo "IPTV boot script successfully installed at $target"
-echo "See https://github.com/fabianishere/udm-iptv/blob/master/README.md for more information"
+echo "See https://github.com/minernl/udm-iptv/blob/master/README.md for more information"
 
 if [ "$INTERACTIVE" != "no" ]; then
     _prompt_start
