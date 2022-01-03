@@ -128,7 +128,7 @@ Before we set up the `udm-iptv` container, make sure you have the
 installed.  SSH into your machine and execute the following command:
 
 ```bash
-sh -c "$(curl -s https://raw.githubusercontent.com/fabianishere/udm-iptv/master/install.sh)"
+sh -c "$(curl -s https://raw.githubusercontent.com/minernl/udm-iptv/master/install.sh)"
 ```
 
 This script will install a boot script that runs after every boot of your
@@ -229,9 +229,9 @@ Please share the diagnostics reported by the boot script when reporting an issue
 Questions, suggestions and contributions are welcome and appreciated!
 You can contribute in various meaningful ways:
 
-* Report a bug through [Github issues](https://github.com/fabianishere/udm-iptv/issues).
+* Report a bug through [Github issues](https://github.com/minernl/udm-iptv/issues).
 * Contribute improvements to the documentation (e.g., configuration for other ISPs).
-* Help answer questions on our [Discussions](https://github.com/fabianishere/udm-iptv/discussions) page.
+* Help answer questions on our [Discussions](https://github.com/minernl/udm-iptv/discussions) page.
 
 ## License
 The code is released under the GPLv2 license. See [COPYING.txt](/COPYING.txt).
